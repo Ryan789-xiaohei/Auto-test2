@@ -32,5 +32,5 @@ def sep(path, add_sep_before=False, add_sep_after=False):
     return all_path
 
 if __name__ == '__main__':
-    # print(get_project_path())
-    # print(sep(["config", "environment.yaml"], True))
+    print(get_project_path())
+    print(sep(["config", "environment.yaml"], True))
