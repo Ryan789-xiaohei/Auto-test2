@@ -1,10 +1,13 @@
 user:
-  jay:
+  -
+    jay:
     username: 周杰伦
     password: 123456
-  william:
+  -
+    william:
     username: william
     password: 123456
-  failure:
+  -
+    failure:
     username: william
     password: william

@@ -12,7 +12,7 @@ class GetConf:
                   encoding="utf-8") as env_file:
             # 读取整个文件的内容赋值给 self.env ，一般是一个dict
             self.env = yaml.load(env_file, Loader=yaml.FullLoader)
-            # print(self.env)
+            print(self.env)
 
 
 if __name__ == '__main__':
